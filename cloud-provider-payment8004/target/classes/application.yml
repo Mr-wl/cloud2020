@@ -1,0 +1,9 @@
+server:
+  port: 8004
+
+spring:
+  application:
+    name: clould-payment-service
+  cloud:
+    zookeeper:
+      connect-string: 192.198.3.33:2181
